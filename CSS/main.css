@@ -1,0 +1,14 @@
+#topH{
+    text-align: center;
+}
+
+#note{
+    font-style: italic;
+    font-size: small;
+}
+
+.listStart{
+    font-style: oblique;
+    font-weight:bold;
+    font-family: fantasy;
+}
