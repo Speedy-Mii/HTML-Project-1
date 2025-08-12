@@ -38,3 +38,17 @@
     border: 4px double crimson;
     border-radius: 20px;
 }
+
+#mainImage{
+    margin: auto;
+    width: 15%;
+    display: flex;
+    border: solid 2pc;
+    border-style:hidden;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+}
+header{
+    background: linear-gradient(to right, #00ff77 0%, #0072ff 100%);
+    border: 2px solid salmon;
+}
