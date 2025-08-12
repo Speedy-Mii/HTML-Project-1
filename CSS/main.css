@@ -1,5 +1,6 @@
 #topH{
     text-align: center;
+    white-space: nowrap;
 }
 
 #note{
@@ -11,4 +12,15 @@
     font-style: oblique;
     font-weight:bold;
     font-family: fantasy;
+}
+
+#bodyList{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 20vw;
+    border: 4px double greenyellow;
+    border-radius: 20px;
 }
