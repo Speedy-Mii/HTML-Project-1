@@ -1,3 +1,6 @@
+body{
+    background: linear-gradient(to bottom, #dac2c2 0%, #7eb1ef 100%);
+}
 #topH{
     text-align: center;
     white-space: nowrap;
@@ -49,6 +52,6 @@
     border-top-right-radius: 400px;
 }
 header{
-    background: linear-gradient(to right, #00ff77 0%, #0072ff 100%);
-    border: 2px solid salmon;
+    background: linear-gradient(to right, #bbf7d7 0%, #9cd4ff 100%);
+    width: fit-content;
 }
