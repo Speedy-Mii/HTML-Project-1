@@ -48,6 +48,8 @@ body{
     height: fit-content;
     background: linear-gradient(to bottom, #7eb1ef 0%, #dac2c2 100%);
     border: solid 1px #bbf7d7;
+    padding-left: 5mm;
+    padding-right: 5mm;
 }
 
 #mainImage{
