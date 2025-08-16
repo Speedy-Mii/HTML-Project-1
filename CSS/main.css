@@ -42,6 +42,13 @@ body{
     margin-right:auto;
 }
 
+#midPoint{
+    flex-wrap: wrap;
+    width: 400px;
+    height: fit-content;
+    background: linear-gradient(to bottom, #7eb1ef 0%, #dac2c2 100%);
+    border: solid 1px #bbf7d7;
+}
 
 #mainImage{
     margin: auto;
