@@ -1,5 +1,13 @@
-body{
+html{
     background: linear-gradient(to bottom, #dac2c2 0%, #7eb1ef 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+}
+body{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 5px;
 }
 #topH{
     text-align: center;
@@ -12,46 +20,48 @@ body{
 }
 
 .listStart{
-    
     font-style: oblique;
-    font-weight:bold;
+    font-weight: bold;
     font-family: fantasy;
 }
 
 #mainBody{
     flex-wrap: wrap;
     display: flex;
-    margin: auto;
+    padding-top: 20mm;
+    margin-left: -5;
 }
 
-#section-List1{
-    margin: auto;
+#section-List1, #section-List2{
     text-align: center;
     background-color: cornflowerblue;
     width: 400px;
     border: 4px double crimson;
     border-radius: 20px;
+    margin-left: auto;
+    margin-right:auto;
 }
 
-#section-List2{
-    margin: auto;
-    text-align: center;
-    background-color: cornflowerblue;
-    width: 400px;
-    border: 4px double crimson;
-    border-radius: 20px;
-}
 
 #mainImage{
     margin: auto;
-    width: 15%;
+    width: 10%;
     display: flex;
     border: solid 2pc;
     border-style:hidden;
     border-top-left-radius: 400px;
     border-top-right-radius: 400px;
 }
+
 header{
     background: linear-gradient(to right, #bbf7d7 0%, #9cd4ff 100%);
-    width: fit-content;
+    width:100% + 5px;
+    margin-left: -5px;
+    margin-bottom: 0px;
+}
+header > p{
+    padding: 5mm;
+    border: dotted 1px black;
+    display: inline-block;
+    margin-top: 0px;
 }
